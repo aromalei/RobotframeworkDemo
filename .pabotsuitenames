@@ -1,0 +1,8 @@
+datasources:7a9c6bbb7ecf948fdfadd8dc04eb29c37dc05f30
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:1cd636038418c6651968b359bdbb88a896825aa8
+--suite Suites.LoginTestChrome
+--suite Suites.LoginTestFirefox
+--suite Suites.LogoutWithoutCheckout
+--suite Suites.SuccessfullyCheckout

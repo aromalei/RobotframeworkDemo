@@ -1,0 +1,21 @@
+1703798310593	geckodriver	INFO	Listening on 127.0.0.1:55626
+1703798313707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofileIBIzDJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703798314081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703798314166	Marionette	INFO	Listening on port 55638
+WebDriver BiDi listening on ws://127.0.0.1:55627
+Read port: 55638
+1703798314351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55627/devtools/browser/7a993c32-98bf-441f-a0fc-be63044e1475
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1703798344815	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703798348857	Marionette	INFO	Stopped listening on port 55638
+Dynamically enable window occlusion 1

@@ -1,0 +1,17 @@
+1703798244626	geckodriver	INFO	Listening on 127.0.0.1:55131
+1703798247955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55132" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofiler3QWcS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703798248300	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703798248396	Marionette	INFO	Listening on port 55180
+WebDriver BiDi listening on ws://127.0.0.1:55132
+Read port: 55180
+1703798248757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55132/devtools/browser/481381ab-a377-45d3-a7a9-a3223df667d8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1703798275461	Marionette	INFO	Stopped listening on port 55180
+Dynamically enable window occlusion 1

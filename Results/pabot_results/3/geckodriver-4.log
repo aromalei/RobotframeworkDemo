@@ -1,0 +1,22 @@
+1703798318575	geckodriver	INFO	Listening on 127.0.0.1:55685
+1703798321663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofileI5eyEl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703798322010	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703798322076	Marionette	INFO	Listening on port 55697
+WebDriver BiDi listening on ws://127.0.0.1:55686
+Read port: 55697
+1703798322258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55686/devtools/browser/f42bb481-0f8c-4133-a2b3-5b8862ae8cba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1703798351920	Marionette	INFO	Stopped listening on port 55697
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1703798352500	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
