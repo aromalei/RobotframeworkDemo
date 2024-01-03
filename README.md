@@ -21,7 +21,7 @@ pip install robotframework-seleniumlibrary
     pip install azure.keyvault
 
 Run the test:
-ask the owner get azure tenant_id, app_client_id and app_client_secret, replace these valuse in AzureKeyVault.py.
+Azure credentials are saved locally as environment varaiable.
 click the file run.bat under RunTest folder, all the four test suites are executed in 2 parallel processes and the output are saved under Results folder.
 
 Test Cases:
