@@ -16,9 +16,12 @@ pip install robotframework-seleniumlibrary
 9. install plugin robotframework-pabot from pycharm's marketplace
 10. install pabot in command line
     pip install -U robotframework-pabot
+11. install azure-identity and azure keyvault module
+    pip install azure-identity
+    pip install azure.keyvault
 
 Run the test:
-click the file run.bat, all the four test suites are executed in 2 parallel processes and the output are saved under Results folder.
+click the file run.bat under RunTest folder, all the four test suites are executed in 2 parallel processes and the output are saved under Results folder.
 
 Test Cases:
 There are four test suites: LoginTestChrome.robot, LoginTestFirefox.robot, LogoutWithoutCheckout.robot, SuccessfullyCheckout.robot.
