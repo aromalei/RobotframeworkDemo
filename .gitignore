@@ -26,6 +26,7 @@ Results/
 #Configuration file
 .env
 config.ini
+venv/
 
 #System Files
 .DS_Store

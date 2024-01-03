@@ -1,3 +1,5 @@
+import os
+
 from azure.identity import ClientSecretCredential
 from azure.keyvault.secrets import SecretClient
 import yaml
@@ -5,7 +7,7 @@ import yaml
 def read_secret_from_keyvault(vault_url, client_id, client_secret, secret_name):
     # Create a ClientSecretCredential using App Registration credentials
     credential = ClientSecretCredential(
-        tenant_id="955addaa-d42c-429d-ba99-feeb1cc66490",
+        tenant_id=os.environ["AZURE_TENANT_ID"],
         client_id=client_id,
         client_secret=client_secret
     )
@@ -25,8 +27,8 @@ def read_secret_from_keyvault(vault_url, client_id, client_secret, secret_name):
 if __name__ == "__main__":
     # Replace these values with your Azure Key Vault URL, App Registration client ID, client secret, and secret name
     keyvault_url = "https://rfusercredential.vault.azure.net/"
-    app_client_id = "3605e95d-339b-4821-84ad-0d852ce44aa0"
-    app_client_secret = "shg8Q~yYqCK9TAo51FfIE2aMAp.tJzkdzQCswc-Q"
+    app_client_id = os.environ["AZURE_APP_CLIENT_ID"]
+    app_client_secret = os.environ["AZURE_APP_CLIENT_SECRET"]
     secret_name_username = "ecommerce-username"
     secret_name_password = "ecommerce-password"
 
