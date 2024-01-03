@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231228 16:17:15.077" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240103 11:28:28.933" rpa="false" schemaversion="4">
 <suite id="s1" name="Suites">
 <suite id="s1-s1" name="LoginTestFirefox" source="C:\Users\Lei\PycharmProjects\saucedemoWebRobotAutomation\TestCases\LoginTestFirefox.robot">
-<test id="s1-s1-t1" name="Valid Login" line="14">
+<test id="s1-s1-t1" name="Valid Login" line="15">
 <kw name="Open My Browser" library="login">
 <arg>${url}</arg>
 <arg>${browser}</arg>
@@ -10,14 +10,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231228 16:17:15.465" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20231228 16:17:15.464" endtime="20231228 16:17:23.037"/>
+<msg timestamp="20240103 11:28:29.249" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20240103 11:28:29.249" endtime="20240103 11:28:38.266"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231228 16:17:23.037" endtime="20231228 16:17:23.045"/>
+<status status="PASS" starttime="20240103 11:28:38.266" endtime="20240103 11:28:38.269"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:15.463" endtime="20231228 16:17:23.045"/>
+<status status="PASS" starttime="20240103 11:28:29.248" endtime="20240103 11:28:38.269"/>
 </kw>
 <kw name="Enter User Name" library="login">
 <arg>${valid_username}</arg>
@@ -25,10 +25,10 @@
 <arg>${LoginUserName}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:23.047" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20231228 16:17:23.046" endtime="20231228 16:17:23.208"/>
+<msg timestamp="20240103 11:28:38.271" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20240103 11:28:38.270" endtime="20240103 11:28:38.520"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.045" endtime="20231228 16:17:23.209"/>
+<status status="PASS" starttime="20240103 11:28:38.269" endtime="20240103 11:28:38.520"/>
 </kw>
 <kw name="Enter Password" library="login">
 <arg>${valid_password}</arg>
@@ -36,32 +36,32 @@
 <arg>${LoginPassword}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:23.210" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20231228 16:17:23.209" endtime="20231228 16:17:23.260"/>
+<msg timestamp="20240103 11:28:38.522" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20240103 11:28:38.521" endtime="20240103 11:28:38.623"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.209" endtime="20231228 16:17:23.260"/>
+<status status="PASS" starttime="20240103 11:28:38.520" endtime="20240103 11:28:38.623"/>
 </kw>
 <kw name="Click SignIn" library="login">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${loginbutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:23.262" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231228 16:17:23.261" endtime="20231228 16:17:23.564"/>
+<msg timestamp="20240103 11:28:38.625" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20240103 11:28:38.624" endtime="20240103 11:28:38.978"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.260" endtime="20231228 16:17:23.564"/>
+<status status="PASS" starttime="20240103 11:28:38.624" endtime="20240103 11:28:38.978"/>
 </kw>
 <kw name="Verify Success Login" library="login">
 <kw name="Element Should Be Visible" library="SeleniumLibrary">
 <arg>xpath://*[@id="header_container"]/div[1]/div[2]/div</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<msg timestamp="20231228 16:17:23.587" level="INFO">Element 'xpath://*[@id="header_container"]/div[1]/div[2]/div' is displayed.</msg>
-<status status="PASS" starttime="20231228 16:17:23.565" endtime="20231228 16:17:23.587"/>
+<msg timestamp="20240103 11:28:39.016" level="INFO">Element 'xpath://*[@id="header_container"]/div[1]/div[2]/div' is displayed.</msg>
+<status status="PASS" starttime="20240103 11:28:38.979" endtime="20240103 11:28:39.016"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.565" endtime="20231228 16:17:23.587"/>
+<status status="PASS" starttime="20240103 11:28:38.978" endtime="20240103 11:28:39.016"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:15.461" endtime="20231228 16:17:23.587"/>
+<status status="PASS" starttime="20240103 11:28:29.247" endtime="20240103 11:28:39.016"/>
 </test>
-<test id="s1-s1-t2" name="Invaid Username Login" line="21">
+<test id="s1-s1-t2" name="Invaid Username Login" line="22">
 <kw name="Open My Browser" library="login">
 <arg>${url}</arg>
 <arg>${browser}</arg>
@@ -69,14 +69,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231228 16:17:23.590" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20231228 16:17:23.589" endtime="20231228 16:17:31.650"/>
+<msg timestamp="20240103 11:28:39.020" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20240103 11:28:39.019" endtime="20240103 11:28:46.719"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231228 16:17:31.651" endtime="20231228 16:17:31.665"/>
+<status status="PASS" starttime="20240103 11:28:46.719" endtime="20240103 11:28:46.724"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.589" endtime="20231228 16:17:31.666"/>
+<status status="PASS" starttime="20240103 11:28:39.018" endtime="20240103 11:28:46.724"/>
 </kw>
 <kw name="Enter User Name" library="login">
 <arg>${invalid_username}</arg>
@@ -84,10 +84,10 @@
 <arg>${LoginUserName}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:31.668" level="INFO">Typing text '123' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20231228 16:17:31.667" endtime="20231228 16:17:31.812"/>
+<msg timestamp="20240103 11:28:46.726" level="INFO">Typing text '123' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20240103 11:28:46.725" endtime="20240103 11:28:46.831"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:31.666" endtime="20231228 16:17:31.812"/>
+<status status="PASS" starttime="20240103 11:28:46.724" endtime="20240103 11:28:46.831"/>
 </kw>
 <kw name="Enter Password" library="login">
 <arg>${valid_password}</arg>
@@ -95,32 +95,32 @@
 <arg>${LoginPassword}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:31.814" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20231228 16:17:31.813" endtime="20231228 16:17:31.908"/>
+<msg timestamp="20240103 11:28:46.833" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20240103 11:28:46.832" endtime="20240103 11:28:46.949"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:31.812" endtime="20231228 16:17:31.908"/>
+<status status="PASS" starttime="20240103 11:28:46.832" endtime="20240103 11:28:46.949"/>
 </kw>
 <kw name="Click SignIn" library="login">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${loginbutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:31.909" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231228 16:17:31.909" endtime="20231228 16:17:32.140"/>
+<msg timestamp="20240103 11:28:46.950" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20240103 11:28:46.949" endtime="20240103 11:28:47.197"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:31.908" endtime="20231228 16:17:32.140"/>
+<status status="PASS" starttime="20240103 11:28:46.949" endtime="20240103 11:28:47.197"/>
 </kw>
 <kw name="Verify Error Message" library="login">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Epic sadface: Username and password do not match any user in this service</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20231228 16:17:32.153" level="INFO">Current page contains text 'Epic sadface: Username and password do not match any user in this service'.</msg>
-<status status="PASS" starttime="20231228 16:17:32.141" endtime="20231228 16:17:32.153"/>
+<msg timestamp="20240103 11:28:47.209" level="INFO">Current page contains text 'Epic sadface: Username and password do not match any user in this service'.</msg>
+<status status="PASS" starttime="20240103 11:28:47.198" endtime="20240103 11:28:47.210"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:32.141" endtime="20231228 16:17:32.154"/>
+<status status="PASS" starttime="20240103 11:28:47.197" endtime="20240103 11:28:47.210"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:23.588" endtime="20231228 16:17:32.154"/>
+<status status="PASS" starttime="20240103 11:28:39.017" endtime="20240103 11:28:47.210"/>
 </test>
-<test id="s1-s1-t3" name="Invaid Password Login" line="28">
+<test id="s1-s1-t3" name="Invaid Password Login" line="29">
 <kw name="Open My Browser" library="login">
 <arg>${url}</arg>
 <arg>${browser}</arg>
@@ -128,14 +128,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231228 16:17:32.158" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20231228 16:17:32.157" endtime="20231228 16:17:38.347"/>
+<msg timestamp="20240103 11:28:47.215" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20240103 11:28:47.213" endtime="20240103 11:28:53.324"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231228 16:17:38.348" endtime="20231228 16:17:38.355"/>
+<status status="PASS" starttime="20240103 11:28:53.325" endtime="20240103 11:28:53.329"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:32.156" endtime="20231228 16:17:38.355"/>
+<status status="PASS" starttime="20240103 11:28:47.212" endtime="20240103 11:28:53.329"/>
 </kw>
 <kw name="Enter User Name" library="login">
 <arg>${valid_username}</arg>
@@ -143,10 +143,10 @@
 <arg>${LoginUserName}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:38.357" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20231228 16:17:38.357" endtime="20231228 16:17:38.490"/>
+<msg timestamp="20240103 11:28:53.332" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20240103 11:28:53.330" endtime="20240103 11:28:53.489"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.356" endtime="20231228 16:17:38.490"/>
+<status status="PASS" starttime="20240103 11:28:53.330" endtime="20240103 11:28:53.489"/>
 </kw>
 <kw name="Enter Password" library="login">
 <arg>${invalid_password}</arg>
@@ -154,32 +154,32 @@
 <arg>${LoginPassword}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:38.491" level="INFO">Typing text '@%!37' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20231228 16:17:38.491" endtime="20231228 16:17:38.591"/>
+<msg timestamp="20240103 11:28:53.491" level="INFO">Typing text '@%!37' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20240103 11:28:53.490" endtime="20240103 11:28:53.548"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.490" endtime="20231228 16:17:38.591"/>
+<status status="PASS" starttime="20240103 11:28:53.489" endtime="20240103 11:28:53.549"/>
 </kw>
 <kw name="Click SignIn" library="login">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${loginbutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:38.592" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231228 16:17:38.591" endtime="20231228 16:17:38.871"/>
+<msg timestamp="20240103 11:28:53.550" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20240103 11:28:53.549" endtime="20240103 11:28:53.793"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.591" endtime="20231228 16:17:38.871"/>
+<status status="PASS" starttime="20240103 11:28:53.549" endtime="20240103 11:28:53.793"/>
 </kw>
 <kw name="Verify Error Message" library="login">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Epic sadface: Username and password do not match any user in this service</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20231228 16:17:38.885" level="INFO">Current page contains text 'Epic sadface: Username and password do not match any user in this service'.</msg>
-<status status="PASS" starttime="20231228 16:17:38.873" endtime="20231228 16:17:38.885"/>
+<msg timestamp="20240103 11:28:53.802" level="INFO">Current page contains text 'Epic sadface: Username and password do not match any user in this service'.</msg>
+<status status="PASS" starttime="20240103 11:28:53.794" endtime="20240103 11:28:53.802"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.872" endtime="20231228 16:17:38.886"/>
+<status status="PASS" starttime="20240103 11:28:53.793" endtime="20240103 11:28:53.802"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:32.155" endtime="20231228 16:17:38.886"/>
+<status status="PASS" starttime="20240103 11:28:47.211" endtime="20240103 11:28:53.802"/>
 </test>
-<test id="s1-s1-t4" name="Blank Username Login" line="35">
+<test id="s1-s1-t4" name="Blank Username Login" line="36">
 <kw name="Open My Browser" library="login">
 <arg>${url}</arg>
 <arg>${browser}</arg>
@@ -187,14 +187,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231228 16:17:38.890" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20231228 16:17:38.889" endtime="20231228 16:17:44.976"/>
+<msg timestamp="20240103 11:28:53.804" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20240103 11:28:53.804" endtime="20240103 11:28:59.669"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231228 16:17:44.976" endtime="20231228 16:17:44.979"/>
+<status status="PASS" starttime="20240103 11:28:59.669" endtime="20240103 11:28:59.673"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.888" endtime="20231228 16:17:44.979"/>
+<status status="PASS" starttime="20240103 11:28:53.803" endtime="20240103 11:28:59.673"/>
 </kw>
 <kw name="Enter User Name" library="login">
 <arg>${EMPTY}</arg>
@@ -202,10 +202,10 @@
 <arg>${LoginUserName}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:44.981" level="INFO">Typing text '' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20231228 16:17:44.980" endtime="20231228 16:17:45.071"/>
+<msg timestamp="20240103 11:28:59.676" level="INFO">Typing text '' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20240103 11:28:59.675" endtime="20240103 11:28:59.745"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:44.980" endtime="20231228 16:17:45.072"/>
+<status status="PASS" starttime="20240103 11:28:59.674" endtime="20240103 11:28:59.745"/>
 </kw>
 <kw name="Enter Password" library="login">
 <arg>${valid_password}</arg>
@@ -213,32 +213,32 @@
 <arg>${LoginPassword}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:45.073" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20231228 16:17:45.072" endtime="20231228 16:17:45.164"/>
+<msg timestamp="20240103 11:28:59.747" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20240103 11:28:59.746" endtime="20240103 11:28:59.862"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:45.072" endtime="20231228 16:17:45.165"/>
+<status status="PASS" starttime="20240103 11:28:59.745" endtime="20240103 11:28:59.862"/>
 </kw>
 <kw name="Click SignIn" library="login">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${loginbutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:45.167" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231228 16:17:45.165" endtime="20231228 16:17:45.428"/>
+<msg timestamp="20240103 11:28:59.864" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20240103 11:28:59.863" endtime="20240103 11:29:00.121"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:45.165" endtime="20231228 16:17:45.429"/>
+<status status="PASS" starttime="20240103 11:28:59.862" endtime="20240103 11:29:00.121"/>
 </kw>
 <kw name="Verify Username Error Message" library="login">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Epic sadface: Username is required</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20231228 16:17:45.438" level="INFO">Current page contains text 'Epic sadface: Username is required'.</msg>
-<status status="PASS" starttime="20231228 16:17:45.429" endtime="20231228 16:17:45.439"/>
+<msg timestamp="20240103 11:29:00.132" level="INFO">Current page contains text 'Epic sadface: Username is required'.</msg>
+<status status="PASS" starttime="20240103 11:29:00.123" endtime="20240103 11:29:00.133"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:45.429" endtime="20231228 16:17:45.439"/>
+<status status="PASS" starttime="20240103 11:29:00.122" endtime="20240103 11:29:00.133"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:38.887" endtime="20231228 16:17:45.439"/>
+<status status="PASS" starttime="20240103 11:28:53.803" endtime="20240103 11:29:00.133"/>
 </test>
-<test id="s1-s1-t5" name="Blank Password Login" line="42">
+<test id="s1-s1-t5" name="Blank Password Login" line="43">
 <kw name="Open My Browser" library="login">
 <arg>${url}</arg>
 <arg>${browser}</arg>
@@ -246,14 +246,14 @@
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20231228 16:17:45.442" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20231228 16:17:45.441" endtime="20231228 16:17:51.544"/>
+<msg timestamp="20240103 11:29:00.136" level="INFO">Opening browser 'headlessfirefox' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20240103 11:29:00.134" endtime="20240103 11:29:06.130"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20231228 16:17:51.545" endtime="20231228 16:17:51.548"/>
+<status status="PASS" starttime="20240103 11:29:06.130" endtime="20240103 11:29:06.137"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:45.440" endtime="20231228 16:17:51.549"/>
+<status status="PASS" starttime="20240103 11:29:00.134" endtime="20240103 11:29:06.137"/>
 </kw>
 <kw name="Enter User Name" library="login">
 <arg>${valid_username}</arg>
@@ -261,10 +261,10 @@
 <arg>${LoginUserName}</arg>
 <arg>${username}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:51.550" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20231228 16:17:51.549" endtime="20231228 16:17:51.867"/>
+<msg timestamp="20240103 11:29:06.139" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20240103 11:29:06.138" endtime="20240103 11:29:06.229"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:51.549" endtime="20231228 16:17:51.868"/>
+<status status="PASS" starttime="20240103 11:29:06.138" endtime="20240103 11:29:06.229"/>
 </kw>
 <kw name="Enter Password" library="login">
 <arg>${EMPTY}</arg>
@@ -272,38 +272,38 @@
 <arg>${LoginPassword}</arg>
 <arg>${password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:51.870" level="INFO">Typing text '' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20231228 16:17:51.869" endtime="20231228 16:17:51.938"/>
+<msg timestamp="20240103 11:29:06.231" level="INFO">Typing text '' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20240103 11:29:06.231" endtime="20240103 11:29:06.245"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:51.868" endtime="20231228 16:17:51.939"/>
+<status status="PASS" starttime="20240103 11:29:06.230" endtime="20240103 11:29:06.245"/>
 </kw>
 <kw name="Click SignIn" library="login">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${loginbutton}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20231228 16:17:51.940" level="INFO">Clicking element 'id:login-button'.</msg>
-<status status="PASS" starttime="20231228 16:17:51.939" endtime="20231228 16:17:52.196"/>
+<msg timestamp="20240103 11:29:06.246" level="INFO">Clicking element 'id:login-button'.</msg>
+<status status="PASS" starttime="20240103 11:29:06.245" endtime="20240103 11:29:06.483"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:51.939" endtime="20231228 16:17:52.196"/>
+<status status="PASS" starttime="20240103 11:29:06.245" endtime="20240103 11:29:06.483"/>
 </kw>
 <kw name="Verify Password Error Message" library="login">
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>Epic sadface: Password is required</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20231228 16:17:52.207" level="INFO">Current page contains text 'Epic sadface: Password is required'.</msg>
-<status status="PASS" starttime="20231228 16:17:52.197" endtime="20231228 16:17:52.207"/>
+<msg timestamp="20240103 11:29:06.490" level="INFO">Current page contains text 'Epic sadface: Password is required'.</msg>
+<status status="PASS" starttime="20240103 11:29:06.484" endtime="20240103 11:29:06.490"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:52.196" endtime="20231228 16:17:52.207"/>
+<status status="PASS" starttime="20240103 11:29:06.484" endtime="20240103 11:29:06.490"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:45.440" endtime="20231228 16:17:52.207"/>
+<status status="PASS" starttime="20240103 11:29:00.133" endtime="20240103 11:29:06.490"/>
 </test>
 <kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" starttime="20231228 16:17:52.208" endtime="20231228 16:18:28.392"/>
+<status status="PASS" starttime="20240103 11:29:06.491" endtime="20240103 11:29:41.650"/>
 </kw>
-<status status="PASS" starttime="20231228 16:17:15.119" endtime="20231228 16:18:28.393"/>
+<status status="PASS" starttime="20240103 11:28:28.968" endtime="20240103 11:29:41.650"/>
 </suite>
-<status status="PASS" starttime="20231228 16:17:15.089" endtime="20231228 16:18:28.396"/>
+<status status="PASS" starttime="20240103 11:28:28.944" endtime="20240103 11:29:41.651"/>
 </suite>
 <statistics>
 <total>

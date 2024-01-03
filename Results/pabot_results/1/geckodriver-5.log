@@ -1,17 +1,17 @@
-1703798265826	geckodriver	INFO	Listening on 127.0.0.1:55390
-1703798268881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofileE1WN9i"
+1704299340443	geckodriver	INFO	Listening on 127.0.0.1:52021
+1704299343520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52022" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofile1dH3H6"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703798269195	Marionette	INFO	Marionette enabled
+1704299343860	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703798269260	Marionette	INFO	Listening on port 55409
-WebDriver BiDi listening on ws://127.0.0.1:55391
-Read port: 55409
-1703798269470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1704299343927	Marionette	INFO	Listening on port 52039
+WebDriver BiDi listening on ws://127.0.0.1:52022
+Read port: 52039
+1704299344109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:55391/devtools/browser/195bc4a7-4507-42cb-9f3e-b44c59b01516
+DevTools listening on ws://127.0.0.1:52022/devtools/browser/b4785989-eea2-43e6-924e-108bdee751d0
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
-1703798284387	Marionette	INFO	Stopped listening on port 55409
+1704299358376	Marionette	INFO	Stopped listening on port 52039
 Dynamically enable window occlusion 1

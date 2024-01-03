@@ -1,18 +1,18 @@
-1703798326372	geckodriver	INFO	Listening on 127.0.0.1:55744
-1703798329450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofileB5Skig"
+1704299400846	geckodriver	INFO	Listening on 127.0.0.1:52364
+1704299403925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lei\\AppData\\Local\\Temp\\rust_mozprofileNcso13"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703798329828	Marionette	INFO	Marionette enabled
+1704299404258	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703798329903	Marionette	INFO	Listening on port 55758
-WebDriver BiDi listening on ws://127.0.0.1:55745
-Read port: 55758
-1703798330145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1704299404346	Marionette	INFO	Listening on port 52376
+WebDriver BiDi listening on ws://127.0.0.1:52365
+Read port: 52376
+1704299404555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:55745/devtools/browser/5ae6af5a-685a-4e59-a05f-718a7f9b1393
+DevTools listening on ws://127.0.0.1:52365/devtools/browser/1b1d8046-498f-4d5d-92da-b93fae256647
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
-1703798355024	Marionette	INFO	Stopped listening on port 55758
+1704299428369	Marionette	INFO	Stopped listening on port 52376
 Dynamically enable window occlusion 1

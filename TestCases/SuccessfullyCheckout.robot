@@ -6,13 +6,14 @@ Resource    ../Resources/ConfirmationInformation.robot
 Resource    ../Resources/CheckOutOverview.robot
 Resource    ../Resources/Complete.robot
 Variables   ../PageObjects/TestData.py
+Variables    ../config/defaults.yaml
 Suite Teardown  close all browsers
 
 *** Variables ***
-${url}    https://www.saucedemo.com/
-${browser}    headlessfirefox
-${valid_username}    standard_user
-${valid_password}    secret_sauce
+${url}    ${url_main}
+${browser}    ${browser2}
+${valid_username}    ${username}
+${valid_password}    ${password}
 ${FirstName}    John
 ${LastName}    Smith
 ${zcode}      321

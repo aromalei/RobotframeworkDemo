@@ -1,0 +1,5 @@
+browser1: headlesschrome
+browser2: headlessfirefox
+password: secret_sauce
+url_main: https://www.saucedemo.com/
+username: standard_user

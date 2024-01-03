@@ -1,12 +1,13 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../Resources/login.robot
+Variables    ../config/defaults.yaml
 Suite Teardown  close all browsers
 *** Variables ***
-${url}    https://www.saucedemo.com/
-${browser}    headlessfirefox
-${valid_username}    standard_user
-${valid_password}    secret_sauce
+${url}    ${url_main}
+${browser}    ${browser2}
+${valid_username}    ${username}
+${valid_password}    ${password}
 ${invalid_username}    123
 ${invalid_password}    @%!37
 
